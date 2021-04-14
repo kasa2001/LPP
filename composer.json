@@ -1,0 +1,19 @@
+{
+  "name": "lpp/case_study",
+  "description": "LPP Case study",
+  "require": {
+    "ext-json": "*",
+    "phpunit/phpunit": "^9.5",
+    "php":"7.1^"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lpp\\": "src\\Lpp"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\" : "test\\Lpp"
+    }
+  }
+}
